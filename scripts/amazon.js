@@ -22,6 +22,46 @@ const products = [{
     count: 56
   },
   priceCents: 799
+}, {
+  image: 'images/products/black-2-slot-toaster.jpg',
+  name: '2 Slot Toaster - Black',
+  rating: {
+    stars: 5,
+    count: 2179
+  },
+  priceCents: 1899
+}, {
+  image: 'images/products/6-piece-white-dinner-plate-set.jpg',
+  name: '6 Piece White Dinner Plate Set',
+  rating: {
+    stars: 4,
+    count: 37
+  },
+  priceCents: 2067
+}, {
+  image: 'images/products/6-piece-non-stick-baking-set.webp',
+  name: '6-piece-non-stick-baking-set',
+  rating: {
+    stars: 4.5, 
+    count: 175
+  },
+  priceCents: 3499
+}, {
+  image: 'images/products/plain-hooded-fleece-sweatshirt-yellow.jpg',
+  name: 'Plain Hooded Fleece Sweatshirt',
+  rating: {
+    stars: 4.5,
+    count: 317
+  }, 
+  priceCents: 2400
+}, {
+  image: 'images/products/luxury-tower-set-6-piece.jpg',
+  name: 'Luxury Towel Set - Graphite Gray',
+  rating: {
+    stars: 4.5,
+    count: 144
+  }, 
+  priceCents: 3599
 }];
 
 let productsHTML = '';
